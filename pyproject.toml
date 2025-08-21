@@ -1,0 +1,11 @@
+[project]
+name = "clean-arichitect-is-all-i-need"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116.1",
+    "py-ulid>=1.0.3",
+    "uvicorn[standard]>=0.35.0",
+]
